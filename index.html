@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+  <div class="circle"></div>
+    <header>
+        <a href="#"><img src="logo.png" alt=""  class="logo"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <div class="textBox">
+            <h2>Its not just Coffee<br>It's <span>Starbucks</span></h2>
+            <p>Delicious, handcrafted beverages and great-tasting food. The secret to making life better<br><br>It’s just a moment in time – just one hand reaching over the counter to present a cup to another outstretched hand.
+                  <br><br>
+                But it’s a connection.
+                <br><br>
+                We make sure everything we do honors that connection – from our commitment to the highest quality coffee in the world, to the way we engage with our customers and communities to do business responsibly.
+                <br><br>
+                From our beginnings as a single store over forty years ago, in every place that we’ve been, and every place that we touch, we've tried to make it a little better than we found it.</p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+    <div class="imgBox">
+        <img src="1.png" alt="" class="starbucks">
+    </div>
+    <ul class="thumb">
+        <li><img src="1.png" alt="" onclick="imgSlider('1.png')"></li>
+        <li><img src="3.png" alt="" onclick="imgSlider('3.png')"></li>
+    </ul>
+    <ul class="sci">
+        <li><a href="#"><img src="f.png" alt=""></a></li>
+        <li><a href="#"><img src="t.jpg" alt=""></a></li>
+        <li><a href="#"><img src="i.jpg" alt=""></a></li>
+    </ul>
+</section>
+<script type="text/javascript">
+ function imgSlider(anything){
+     document.querySelector('.starbucks').src=anything;
+ }
+</script>
+</body>
+</html>
